@@ -80,9 +80,6 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Sobre el Proyecto
-
-<!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
 ## Sobre el Proyecto
 
@@ -95,14 +92,10 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Estructura de Datos
+### Estructura de Datos
 <ul>
   <li>Estructura a usar: Listas enlazadas - Tablas Hash</li>
 </ul>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ### Desarrollado con
 
