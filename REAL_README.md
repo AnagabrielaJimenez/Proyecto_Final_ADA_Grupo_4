@@ -84,28 +84,22 @@
 
 <!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+<!--Descripción-->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-<!-- GETTING STARTED -->
+### Desarrollado con
+
+* [C++]
+* [Visual Studio Code](https://code.visualstudio.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -135,22 +129,22 @@ This is an example of how to list things you need to use the software and how to
    const API_KEY = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>-->
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
-<!-- ROADMAP -->
+<!-- ROADMAP
 ## Roadmap
 
 - [ ] Feature 1
@@ -160,7 +154,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>-->
 
 
 
