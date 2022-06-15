@@ -84,7 +84,7 @@
 
 <!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
-<p>Un sistema gestor de bases de datos, a veces conocido como DBMS, es esencialmente un sistema de mantenimiento de datos computarizado. Los usuarios del sistema tienen la capacidad de ejecutar una variedad de acciones en él, como manipular los datos en la base de datos o administrar la estructura de la base de datos en sí.</p>
+<!--Descripción-->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -158,7 +158,7 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 
 
-<!-- CONTRIBUTING -->
+<!-- CONTRIBUTING
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -172,7 +172,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
@@ -186,11 +186,15 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## Colaboradores
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Anagabriela Pilar Jiménez López - ajimenezl@unsa.edu.pe
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Jenny Huanca Anquise - jhuancaan@unsa.edu.pe
+
+Ckaroll Chura Navarro - cchuran@unsa.edu.pe
+
+Project Link: [https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4](https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
