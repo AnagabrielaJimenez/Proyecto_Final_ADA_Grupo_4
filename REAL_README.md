@@ -29,23 +29,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Gestor de Base De Datos</h3>
 
   <p align="center">
-    project_description
+    Realizamos un gestor de Base de Datos utilizando estructuras de datos aprendidos en el curso de ADA
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/issues">Request Feature</a>
   </p>
 </div>
 
@@ -53,38 +53,38 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Tabla de Contenidos</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Sobre el Proyecto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Desarrollado Con</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Comenzando</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Prerrequisitos</a></li>
+        <li><a href="#installation">Instalación</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#usage">Usos</a></li>
+    <!--<li><a href="#roadmap">Roadmap</a></li>-->
+    <li><a href="#contributing">Contribuciones</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <!--<li><a href="#acknowledgments">Acknowledgments</a></li>-->
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Sobre el Proyecto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
