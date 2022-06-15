@@ -84,7 +84,7 @@
 
 <!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
-<p>Un sistema gestor de bases de datos, a veces conocido como DBMS, es esencialmente un sistema de mantenimiento de datos computarizado. Los usuarios del sistema tienen la capacidad de ejecutar una variedad de acciones en él, como manipular los datos en la base de datos o administrar la estructura de la base de datos en sí.</p>
+<!--Descripción-->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -201,28 +201,27 @@ Project Link: [https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4]
 
 
 <!-- ACKNOWLEDGMENTS -->
-<!-- ## Acknowledgments
+## Objetivos
 
-* []()
-* []()
-* []()
+* Realizar una adecuada inserción y eliminación de Datos.
+* Realizar consultas y operaciones en el menor tiempo posible.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
--->
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4.svg?style=for-the-badge
+[contributors-url]: https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4.svg?style=for-the-badge
+[forks-url]: https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/network/members
+[stars-shield]: https://img.shields.io/github/stars/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4.svg?style=for-the-badge
+[stars-url]: https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/stargazers
+[issues-shield]: https://img.shields.io/github/issues/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4.svg?style=for-the-badge
+[issues-url]: https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/issues
+[license-shield]: https://img.shields.io/github/license/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4.svg?style=for-the-badge
+[license-url]: https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/linkedin_AnagabrielaJimenez
 [product-screenshot]: images/screenshot.png
