@@ -194,6 +194,8 @@ Jenny Huanca Anquise - jhuancaan@unsa.edu.pe
 
 Ckaroll Chura Navarro - cchuran@unsa.edu.pe
 
+Yamil Yonder Llampi Hancco - yllampi@unsa.edu.pe
+
 Project Link: [https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4](https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
