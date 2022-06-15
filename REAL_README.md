@@ -201,14 +201,14 @@ Project Link: [https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4]
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- ## Acknowledgments
 
 * []()
 * []()
 * []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
+-->
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
