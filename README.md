@@ -195,15 +195,15 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Colaboradores
 
-Anagabriela Pilar Jiménez López - ajimenezl@unsa.edu.pe
+-Anagabriela Pilar Jiménez López - ajimenezl@unsa.edu.pe
 
-Jenny Huanca Anquise - jhuancaan@unsa.edu.pe
+-Jenny Huanca Anquise - jhuancaan@unsa.edu.pe
 
-Ckaroll Chura Navarro - cchuran@unsa.edu.pe
+-Ckaroll Chura Navarro - cchuran@unsa.edu.pe
 
-Yamil Yonder Llampi Hancco - yllampi@unsa.edu.pe
+-Yamil Yonder Llampi Hancco - yllampi@unsa.edu.pe
 
-Freddy Leonel Humpiri Valdivia - fhumpiri@unsa.edu.pe
+-Freddy Leonel Humpiri Valdivia - fhumpiri@unsa.edu.pe
 
 Project Link: [https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4](https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4)
 
