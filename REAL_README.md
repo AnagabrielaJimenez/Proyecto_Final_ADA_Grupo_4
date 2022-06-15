@@ -84,7 +84,7 @@
 
 <!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
-<!--Descripción-->
+<p>Un sistema gestor de bases de datos, a veces conocido como DBMS, es esencialmente un sistema de mantenimiento de datos computarizado. Los usuarios del sistema tienen la capacidad de ejecutar una variedad de acciones en él, como manipular los datos en la base de datos o administrar la estructura de la base de datos en sí.</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
