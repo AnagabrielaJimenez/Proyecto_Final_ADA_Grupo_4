@@ -28,7 +28,7 @@ int main()
 
     show_duplicate_buckets = 0;
 
-    if (show_messages) { cout << "Tama�o del Bucket  : "; }
+    if (show_messages) { cout << "Tamaño del Bucket  : "; }
     cin >> bucket_size;
     if (show_messages) { cout << "Profundidad global inicial : "; }
     cin >> initial_global_depth;
