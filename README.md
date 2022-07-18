@@ -191,6 +191,30 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+<!--Introduction-->
+## Introducción
+Los sistemas de gestión de base de datos son necesarios y muy importantes en la creación y gestión de los datos de una organización. Almacenan la información de manera organizada y permiten acceder a la información de forma ágil.
+
+Es por eso que en este informe, presentaremos el desarrollo de un sistema gestor de base de datos. En este caso haremos uso de los temas desarrollados en el curso como la implementación de hashing extensible, el cual es un método de hash dinámico en el que los directorios y los depósitos se utilizan para hacer hash de los datos y también el uso del LRU.
+
+## ¿Qué es un DBMS?
+Un sistema gestor de base de datos es un software que permite administrar una base de datos.
+
+Mediante este programa se puede utilizar, configurar y extraer información almacenada. Los usuarios pueden acceder a la información usando herramientas específicas de consulta y de generación de informes, o bien mediante aplicaciones al efecto.
+
+
+<!--Compile and Run-->
+## Compile and Run
+### Version Compilador
+- gcc version = 9.4.0
+- c++ version = c++11
+
+### Compile
+- g++ -o eject main.cpp -std=c++11
+
+### Run
+- time ./eject
+
 
 <!-- CONTACT -->
 ## Colaboradores
