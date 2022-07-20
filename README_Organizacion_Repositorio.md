@@ -38,7 +38,7 @@
   <p align="center">
     Creación de un Gestor de Base de Datos utilizando estructuras de datos aprendidos en el curso de ADA
     <br />
-    <a href="https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/master/README.md">
+    <a href="https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/blob/master/README.md">
         <strong>Sobre el proyecto»</strong>
     </a>
     <br />
