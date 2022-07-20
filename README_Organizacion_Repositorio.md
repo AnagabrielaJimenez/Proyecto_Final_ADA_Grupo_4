@@ -62,3 +62,18 @@ En la actual versión se puede distinguir la siguiente distribución:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4.svg?style=for-the-badge
+[contributors-url]: https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4.svg?style=for-the-badge
+[forks-url]: https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/network/members
+[stars-shield]: https://img.shields.io/github/stars/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4.svg?style=for-the-badge
+[stars-url]: https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/stargazers
+[issues-shield]: https://img.shields.io/github/issues/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4.svg?style=for-the-badge
+[issues-url]: https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/issues
+[license-shield]: https://img.shields.io/github/license/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4.svg?style=for-the-badge
+[license-url]: https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/linkedin_AnagabrielaJimenez
+[product-screenshot]: images/screenshot.png
