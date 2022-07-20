@@ -38,7 +38,7 @@
   <p align="center">
     Creación de un Gestor de Base de Datos utilizando estructuras de datos aprendidos en el curso de ADA
     <br />
-    <a href="https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/README.md">
+    <a href="https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/master/README.md">
         <strong>Sobre el proyecto»</strong>
     </a>
     <br />
@@ -52,8 +52,10 @@
 El presente proyecto irá cambiando su organización de acuerdo al avance en la creación de los archivos requeridos.
 En la actual versión se puede distinguir la siguiente distribución: 
 
+<img src="images/arbol_ficheros.png" alt="Arbol de ficheros" width="331" height="228">
 
-
+* <strong>DBSM: </strong> Carpeta con los archivos header y main del Gestor de Base de Datos.
+* <strong>Images: </strong> Carpeta con las imágenes usadas para la documentación en los README.
 
 ### Desarrollado con
 
