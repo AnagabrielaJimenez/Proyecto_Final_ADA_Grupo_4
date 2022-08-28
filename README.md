@@ -76,78 +76,33 @@ Como objetivo principal para nuestro Sistema Gestor de Base de Datos (*DBMan*) e
 * Realizar consultas y operaciones en un tiempo aceptable.
 
 ## 3. Estructura de Datos y Algoritmos
-### 3.1. Tablas Hash - Función Hash
-Para el acceso a los datos, ya sea la Base de Datos correspondiente, o a las tablas, se
-hara uso de una funcion Hash, por la cual mediante una key, en este caso un string, se
-realice la insercion, eliminacion, impresion y actualizacion de datos de tablas especificas o
-de tablas como tal.
+### 3.1. Árbol B+
+El árbol B+ es un tipo de estructura de datos de árbol, representa una colección de datos ordenados de manera que se permite una inserción y borrado eficientes de elementos. Es un índice, multinivel, dinámico, con un límite máximo 
+y mínimo en el número de claves por nodo. Un árbol B+ es una variación de un árbol B.
+
+Se implementó esta estructura para el almacenamiento de los registros de las tablas de las bases de datos. 
 
 ```c++
-template <typename T>
-class Hash
-{
+class BPTree {
 private:
-    int tam;
-    list< Database<T> > *tabla;
-    int fd(string key, int n)
-    {
-        const char *k = key.c_str();
-        int s = 0;
-        while (*k)
-        {
-            s = s + int(*k);
-            k++;
-        }
-        return s % n;
-    }
-}
-```
-
-### 3.2. LRU Caché
-La presente clase se encarga del buffer management, consultando las tablas ultimas vi-
-sitadas y verificando si sus datos esta a libre disposicion en caso de necesitar ser usados en
-una consulta posterior. Tras esto el puntero el cual hace referencia a los mencionados lla-
-mara el correspondiente para agilizar la consulta y las operaciones SIDU correspondientes
-a la base de datos.
-
-```c++
-template <typename T>
-class LRUcache
-{
-private:
-    list< Table<T> > *dq;
-    unordered_map<int, list<int>::iterator> ma;
-
-    int csize;
-
+    NodeBPT *root;
+    void insertInternal(int, NodeBPT *, NodeBPT *);
+    void removeInternal(int, NodeBPT *, NodeBPT *);
+    NodeBPT *findParent(NodeBPT *, NodeBPT *);
+    int MAX;
+    std::list<int> indexation;
 public:
-    LRUcache(int t, Database<T> database)
-    {
-        dq=&database->tables;
-        csize = t;
-    }
-
-    void refer(int x)
-    {
-        if (ma.find(x)==ma.end())
-        {
-            if (dq->size()==csize)
-            {
-                int last = dq.back();
-
-                dq.pop_back();
-                ma.erase(last);
-            }
-        }
-        else
-        {
-            dq.erase(ma[x]);
-        }
-        dq.push_front(x);
-        ma[x] = dq.begin();
-    }
+    BPTree(int);
+    void search(int);
+    void insert(int);
+    void remove(int);
+    void display(NodeBPT *);
+    NodeBPT *getRoot();
+    std::list<int> &getIndexation() ;
+    void clearIndexation();
 };
 ```
+
 
 ## 4. Instalación 
 Para el uso de este software debe tener en consideración los siguientes aspectos:
@@ -201,9 +156,11 @@ de uso la linea de comandos o consola como se ve a continuación.
 A partir de aquí sólo siga las instrucciones.
 
 ## 5. Documentos Adicionales
-* Presentación del proyecto: [Diapositivas - Presentación de Sofware]()
-* Presentación del proyecto: [Video en YT - Presentación de Sofware]()
-* Estructura del Software: [Archivo markdown - Estructura del Sofware]() 
+* Presentación del proyecto: 
+  * [Diapositivas - Presentación de Sofware]()
+  * [Video en YT - Presentación de Sofware]( )
+* Demostración del sofware DBMAN: [Video en YT - Demostración de Sofware DBMAN](https://youtu.be/WXIc_ypRCyc)
+* Organización del Repositorio: [Archivo markdown - Organización del Repositorio]() 
 
 
 ## 6. Participantes
