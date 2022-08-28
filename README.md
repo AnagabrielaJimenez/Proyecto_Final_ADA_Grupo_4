@@ -157,7 +157,7 @@ A partir de aquí sólo siga las instrucciones.
   * [Diapositivas - Presentación de Sofware](https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/blob/master/docs/Grupo%204%20-%20Presentaci%C3%B3nSoftwareADA.pdf)
   * [Video en YT - Presentación de Sofware](https://youtu.be/sgWq8B5fOA8)
 * Demostración del sofware DBMAN: [Video en YT - Demostración de Sofware DBMAN](https://youtu.be/WXIc_ypRCyc)
-* Organización del Repositorio: [Archivo markdown - Organización del Repositorio]() 
+* Organización del Repositorio: [Archivo markdown - Organización del Repositorio](https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/blob/master/ORGANIZACION_REPOSITORIO.md) 
 
 
 ## 6. Participantes
