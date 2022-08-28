@@ -198,6 +198,8 @@ Por hacer
 Si ejecutó y compilo correctamente podrá ver las instrucciones 
 de uso la linea de comandos o consola como se ve a continuación. 
 
+![menu.png](images/menu.png)
+
 A partir de aquí sólo siga las instrucciones.
 
 ## 5. Documentos Adicionales
