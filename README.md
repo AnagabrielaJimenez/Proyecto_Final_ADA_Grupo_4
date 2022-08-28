@@ -71,8 +71,6 @@ Como objetivo principal para nuestro Sistema Gestor de Base de Datos (*DBMan*) e
 ### 2.2. Objetivos Específicos
 * Permitir la definición de todos los datos.
 * Permitir manipular datos.
-* Pstablecer controles para la seguridad de estos.
-* Permitir los accesos concurrentes.
 * Permitir operaciones, consultas e insertar datos.
 * Realizar una adecuada inserción y eliminación de Datos.
 * Realizar consultas y operaciones en un tiempo aceptable.
