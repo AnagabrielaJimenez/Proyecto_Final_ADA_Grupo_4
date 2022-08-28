@@ -33,13 +33,13 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Gestor de Base De Datos</h3>
+<h3 align="center"> DBMan - Gestor de Base De Datos</h3>
 
   <p align="center">
     Creación de un Gestor de Base de Datos utilizando estructuras de datos aprendidos en el curso de ADA
     <br />
     <a href="https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/blob/master/README_Organizacion_Repositorio.md">
-        <strong>Organización del Respositorio»</strong>
+        <strong>Información General de Software»</strong>
     </a>
     <br />
     <br />
@@ -47,37 +47,50 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
-## Sobre el Proyecto
+## 1. Sobre el Proyecto
 
 <!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
-Los sistemas de gestión de base de datos son necesarios y muy importantes en la creación y gestión de los datos de una organización. Almacenan la información de manera organizada y permiten acceder a la información de forma ágil.
-Es por eso que en este informe, presentaremos el desarrollo de un sistema gestor de base de datos. En este caso haremos uso de los temas desarrollados en el curso como la implementación de hashing extensible, el cual es un método de hash dinámico en el que los directorios y los depósitos se utilizan para hacer hash de los datos y también el uso del LRU.
+DBMan (Data base Managment) es un software creado para la gestión de bases de datos. 
+Los sistemas de gestión de base de datos son necesarios e importantes en la creación y gestión de los datos de una organización. 
+Almacenan la información de manera organizada y permiten acceder a la información de forma ágil. 
 
-### ¿Qué es un DBMS?
+[//]: # (Es por eso que en este informe, presentaremos el desarrollo de un sistema gestor de base de datos. En este caso haremos uso de los temas desarrollados en el curso como la implementación de hashing extensible, el cual es un método de hash dinámico en el que los directorios y los depósitos se utilizan para hacer hash de los datos y también el uso del LRU.)
+
+
+### 1.1. ¿Qué es un DBMS?
 Un sistema gestor de base de datos es un software que permite administrar una base de datos.
 Mediante este programa se puede utilizar, configurar y extraer información almacenada. Los usuarios pueden acceder a la información usando herramientas específicas de consulta y de generación de informes, o bien mediante aplicaciones al efecto.
 
 
-### Objetivos
+## 2. Objetivos
 
+### 2.1. Objetivo General
+Como objetivo principal para nuestro Sistema Gestor de Base de Datos (*DBMan*) es ofrecer comodidad y eficacia al usuario para el almacenamiento de datos variados.
+
+### 2.2. Objetivos Específicos
+* Permitir la definición de todos los datos.
+* Permitir manipular datos.
+* Pstablecer controles para la seguridad de estos.
+* Permitir los accesos concurrentes.
+* Permitir operaciones, consultas e insertar datos.
 * Realizar una adecuada inserción y eliminación de Datos.
 * Realizar consultas y operaciones en un tiempo aceptable.
 
-### Estructura de Datos
+## 3. Estructura de Datos
 <ul>
   <li>Estructura a usar: Listas enlazadas - Tablas Hash</li>
 </ul>
 
-### Desarrollado con
+## 4. Instalación 
+
+### 4.x. Desarrollado con
 
 * [C++]
 * [Visual Studio Code](https://code.visualstudio.com/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!--Compile and Run-->
-## Compilar y ejecutar proyecto
+### 4.x. Compilar y ejecutar proyecto
 El proyecto puede ser ejecutado tanto en todos los sistemas operativos. A continuación se muestran las instrucciones para
 su ejecución en Ubuntu (Linux):
 ### Version Compilador
@@ -89,11 +102,12 @@ su ejecución en Ubuntu (Linux):
 
 ### Ejecutar
 - time ./eject
-<p align="right">(<a href="#top">back to top</a>)</p>
 
-
+## 5. Documentos Adicionales
+* Presentación del proyecto: [Diapositivas - Presentación de Sofware]()
+* Estructura del Software: [Archivo markdown - Estructura del Sofware]() 
 <!-- PARTICIPANTES -->
-## Participantes
+## 6. Participantes
 
 - Anagabriela Pilar Jiménez López - ajimenezl@unsa.edu.pe
 
@@ -105,14 +119,14 @@ su ejecución en Ubuntu (Linux):
 
 - Freddy Leonel Humpiri Valdivia - fhumpiri@unsa.edu.pe
 
-Project Link: [https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4](https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4)
-<p align="right">(<a href="#top">back to top</a>)</p>
+Link del repositorio: [https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4](https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4)
+
 
 <!-- LICENCIA -->
-## License
+## 7. License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

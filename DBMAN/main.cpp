@@ -6,7 +6,7 @@ using namespace std;
 void menu()
 {
     cout << "--------------------" << endl;
-    cout << "Ingrese las consultas en el siguiente formato :" << endl;
+    cout << "Ingrese las instrucciones en el siguiente formato :" << endl;
     cout << "insert <key> <valor>     (key: entero, value: string)" << endl;
     cout << "delete <key> <modo>      (modo: 0-Perezoso / 1-combinar buckets vacios / 2-combinar buckets y reducirlo )" << endl;
     cout << "update <key> <nuevo valor>" << endl;
