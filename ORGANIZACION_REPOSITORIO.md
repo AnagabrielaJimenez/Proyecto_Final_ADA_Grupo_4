@@ -33,16 +33,12 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Gestor de Base De Datos</h3>
+<h3 align="center">DBMAN - Gestor de Base De Datos</h3>
 
   <p align="center">
     Creación de un Gestor de Base de Datos utilizando estructuras de datos aprendidos en el curso de ADA
-    <br />
-    <a href="https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/blob/master/README.md">
-        <strong>Sobre el proyecto»</strong>
-    </a>
-    <br />
-    <br />
+
+
   </p>
 </div>
 
@@ -57,10 +53,20 @@ En la actual versión se puede distinguir la siguiente distribución:
 * <strong>DBSM: </strong> Carpeta con los archivos header y main del Gestor de Base de Datos.
 * <strong>Images: </strong> Carpeta con las imágenes usadas para la documentación en los README.
 
-### Desarrollado con
+## Participantes
 
-* [C++]
-* [Visual Studio Code](https://code.visualstudio.com/)
+- Anagabriela Pilar Jiménez López - ajimenezl@unsa.edu.pe
+
+- Jenny Huanca Anquise - jhuancaan@unsa.edu.pe
+
+- Ckaroll Chura Navarro - cchuran@unsa.edu.pe
+
+- Yamil Yonder Llampi Hancco - yllampi@unsa.edu.pe
+
+- Freddy Leonel Humpiri Valdivia - fhumpiri@unsa.edu.pe
+
+Link del repositorio: [https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4](https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

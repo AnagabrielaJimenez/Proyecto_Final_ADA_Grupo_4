@@ -37,12 +37,9 @@
 
   <p align="center">
     Creación de un Gestor de Base de Datos utilizando estructuras de datos aprendidos en el curso de ADA
-    <br />
-    <a href="https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/blob/master/README_Organizacion_Repositorio.md">
-        <strong>Información General de Software»</strong>
-    </a>
-    <br />
-    <br />
+        
+**Información General de Software**
+
   </p>
 </div>
 
@@ -157,8 +154,8 @@ A partir de aquí sólo siga las instrucciones.
 
 ## 5. Documentos Adicionales
 * Presentación del proyecto: 
-  * [Diapositivas - Presentación de Sofware]()
-  * [Video en YT - Presentación de Sofware]( )
+  * [Diapositivas - Presentación de Sofware](https://github.com/AnagabrielaJimenez/Proyecto_Final_ADA_Grupo_4/blob/master/docs/Grupo%204%20-%20Presentaci%C3%B3nSoftwareADA.pdf)
+  * [Video en YT - Presentación de Sofware](https://youtu.be/sgWq8B5fOA8)
 * Demostración del sofware DBMAN: [Video en YT - Demostración de Sofware DBMAN](https://youtu.be/WXIc_ypRCyc)
 * Organización del Repositorio: [Archivo markdown - Organización del Repositorio]() 
 
