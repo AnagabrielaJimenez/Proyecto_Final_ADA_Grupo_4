@@ -193,7 +193,7 @@ Use la línea de comandos para ubicarse dentro de la carpeta del proyecto y  eje
 
 Por hacer
 
-**Uso**
+### 4.5. Uso
 
 Si ejecutó y compilo correctamente podrá ver las instrucciones 
 de uso la linea de comandos o consola como se ve a continuación. 
