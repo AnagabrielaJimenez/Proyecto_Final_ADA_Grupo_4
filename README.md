@@ -77,36 +77,127 @@ Como objetivo principal para nuestro Sistema Gestor de Base de Datos (*DBMan*) e
 * Realizar una adecuada inserción y eliminación de Datos.
 * Realizar consultas y operaciones en un tiempo aceptable.
 
-## 3. Estructura de Datos
-<ul>
-  <li>Estructura a usar: Listas enlazadas - Tablas Hash</li>
-</ul>
+## 3. Estructura de Datos y Algoritmos
+### 3.1. Tablas Hash - Función Hash
+Para el acceso a los datos, ya sea la Base de Datos correspondiente, o a las tablas, se
+hara uso de una funcion Hash, por la cual mediante una key, en este caso un string, se
+realice la insercion, eliminacion, impresion y actualizacion de datos de tablas especificas o
+de tablas como tal.
+
+```c++
+template <typename T>
+class Hash
+{
+private:
+    int tam;
+    list< Database<T> > *tabla;
+    int fd(string key, int n)
+    {
+        const char *k = key.c_str();
+        int s = 0;
+        while (*k)
+        {
+            s = s + int(*k);
+            k++;
+        }
+        return s % n;
+    }
+}
+```
+
+### 3.2. LRU Caché
+La presente clase se encarga del buffer management, consultando las tablas ultimas vi-
+sitadas y verificando si sus datos esta a libre disposicion en caso de necesitar ser usados en
+una consulta posterior. Tras esto el puntero el cual hace referencia a los mencionados lla-
+mara el correspondiente para agilizar la consulta y las operaciones SIDU correspondientes
+a la base de datos.
+
+```c++
+template <typename T>
+class LRUcache
+{
+private:
+    list< Table<T> > *dq;
+    unordered_map<int, list<int>::iterator> ma;
+
+    int csize;
+
+public:
+    LRUcache(int t, Database<T> database)
+    {
+        dq=&database->tables;
+        csize = t;
+    }
+
+    void refer(int x)
+    {
+        if (ma.find(x)==ma.end())
+        {
+            if (dq->size()==csize)
+            {
+                int last = dq.back();
+
+                dq.pop_back();
+                ma.erase(last);
+            }
+        }
+        else
+        {
+            dq.erase(ma[x]);
+        }
+        dq.push_front(x);
+        ma[x] = dq.begin();
+    }
+};
+```
 
 ## 4. Instalación 
+Para el uso de este software debe tener en consideración los siguientes aspectos:
+### 4.1. Requisitos de Software
+* Compilador de C++ que soporte el standar 11 o superior. Se recomiendan MinGW para Windows y G++ para Linux. 
+* Espacio en disco para la creación de las base de datos
+* Se recomienda un Editor de código como Visual Studio Code o IDEs como Clion o Visual Studio.
 
-### 4.x. Desarrollado con
+### 4.2. Plataformas 
+El software puede ser ejecutado tanto en las plataformas Linux como Windows.
 
-* [C++]
-* [Visual Studio Code](https://code.visualstudio.com/)
+### 4.3. Dependencias
+Para que el programa funcione correctamente no es necesaria la instalación de ninguna dependencia adicional.
+Solo se hizo uso de las Librerías Estandar de C++.
 
-<!--Compile and Run-->
-### 4.x. Compilar y ejecutar proyecto
-El proyecto puede ser ejecutado tanto en todos los sistemas operativos. A continuación se muestran las instrucciones para
-su ejecución en Ubuntu (Linux):
-### Version Compilador
-- gcc version = 9.4.0
-- c++ version = c++11
 
-### Compilación
-- g++ -o eject main.cpp -std=c++11
+### 4.4. Instrucciones de instalación
+El proyecto puede ser ejecutado tanto en linux como windows. Se puede clonar el repositorio o descargar como ZIP y 
+descomprimirlo en la carpeta donde desea crear la base de datos.
+Para comenzar la ejecución, úbiquese dentro de la carpeta clonada o descomprimida:
 
-### Ejecutar
-- time ./eject
+**Compilación y ejecución en Linux**
+
+Desde la línea de comandos ejecute las siguientes intrucciones:
+```
+ g++ -o bdman main.cpp -std=c++11
+ 
+ ./bdman
+```
+
+
+
+**Compilación y ejecución en Windows**
+* Abra su editor de código o IDE de C++.
+* Configurelo para compilar el archivo `main.cpp`.
+* Ejecute el archivo ejecutable generado.
+
+**Uso**
+
+Si ejecutó y compilo correctamente podrá ver las instrucciones 
+de uso la linea de comandos o consola. A partir de allí sólo siga las instrucciones.
 
 ## 5. Documentos Adicionales
 * Presentación del proyecto: [Diapositivas - Presentación de Sofware]()
+* Presentación del proyecto: [Video en YT - Presentación de Sofware]()
 * Estructura del Software: [Archivo markdown - Estructura del Sofware]() 
-<!-- PARTICIPANTES -->
+
+
 ## 6. Participantes
 
 - Anagabriela Pilar Jiménez López - ajimenezl@unsa.edu.pe
