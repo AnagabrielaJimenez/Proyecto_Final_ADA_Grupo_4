@@ -154,7 +154,9 @@ public:
 ## 4. Instalación 
 Para el uso de este software debe tener en consideración los siguientes aspectos:
 ### 4.1. Requisitos de Software
-* Compilador de C++ que soporte el standar 11 o superior. Se recomiendan MinGW para Windows y G++ para Linux. 
+* Compilador de C++ que soporte el standar C++17. 
+* Compilador recomendado: MinGW para Windows y G++ para Linux. 
+* Tener instalado Cmake (versión minima 3.16)
 * Espacio en disco para la creación de las base de datos
 * Se recomienda un Editor de código como Visual Studio Code o IDEs como Clion o Visual Studio.
 
@@ -162,35 +164,41 @@ Para el uso de este software debe tener en consideración los siguientes aspecto
 El software puede ser ejecutado tanto en las plataformas Linux como Windows.
 
 ### 4.3. Dependencias
-Para que el programa funcione correctamente no es necesaria la instalación de ninguna dependencia adicional.
-Solo se hizo uso de las Librerías Estandar de C++.
+Para que el software funcione correctamente no es necesaria la instalación de ninguna dependencia adicional.
+Solo se usaron las Librerías Estandar de C++.
 
 
 ### 4.4. Instrucciones de instalación
 El proyecto puede ser ejecutado tanto en linux como windows. Se puede clonar el repositorio o descargar como ZIP y 
 descomprimirlo en la carpeta donde desea crear la base de datos.
-Para comenzar la ejecución, úbiquese dentro de la carpeta clonada o descomprimida:
+Para comenzar la ejecución, úbiquese dentro de la carpeta clonada o descomprimida.
 
 **Compilación y ejecución en Linux**
 
-Desde la línea de comandos ejecute las siguientes intrucciones:
-```
- g++ -o bdman main.cpp -std=c++11
- 
- ./bdman
-```
+Primero, asegúrese de cumplir con el punto *4.1. Requisitos de Software*.
+* Si su distribución de GNU/Linux esta basado en Ubuntu y no tiene instalado un compilador de c++ puede seguir estos pasos: 
+[Install and Use G++ on Ubuntu](https://linuxhint.com/install-and-use-g-on-ubuntu/).
+* Si su distribución de GNU/Linux esta basado en Ubuntu y no tiene instalado CMake puede seguir estos pasos:
+[How to Install CMake on Ubuntu](https://vitux.com/how-to-install-cmake-on-ubuntu/).
+* Para otras distribuciones, consulte la documentación oficial.
 
+Use la línea de comandos para ubicarse dentro de la carpeta del proyecto y  ejecute las siguientes intrucciones:
 
+1. `cd build/`
+2. `cmake ..`
+3. `make`
+4. `./Data_Base_Management_System`
 
 **Compilación y ejecución en Windows**
-* Abra su editor de código o IDE de C++.
-* Configurelo para compilar el archivo `main.cpp`.
-* Ejecute el archivo ejecutable generado.
+
+Por hacer
 
 **Uso**
 
 Si ejecutó y compilo correctamente podrá ver las instrucciones 
-de uso la linea de comandos o consola. A partir de allí sólo siga las instrucciones.
+de uso la linea de comandos o consola como se ve a continuación. 
+
+A partir de aquí sólo siga las instrucciones.
 
 ## 5. Documentos Adicionales
 * Presentación del proyecto: [Diapositivas - Presentación de Sofware]()
