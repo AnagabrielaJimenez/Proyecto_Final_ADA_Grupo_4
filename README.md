@@ -157,6 +157,8 @@ A continuación siga los siguientes pasos:
 2. Dentro de DBMAN, haga clic derecho en *CMakeLists.txt* y escoja la opción *Build All Projects* 
 
 ![img.png](images/build.png)
+
+
 3. Terminado de construir use la terminal para ejecutar los siguientes comandos:
 
  * `cd "build"`
