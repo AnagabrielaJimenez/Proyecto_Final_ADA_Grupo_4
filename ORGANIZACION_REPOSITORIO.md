@@ -48,11 +48,25 @@
 El presente proyecto irá cambiando su organización de acuerdo al avance en la creación de los archivos requeridos.
 En la actual versión se puede distinguir la siguiente distribución: 
 
-<img src="images/arbol_ficheros.png" alt="Arbol de ficheros" width="331" height="228">
+![organizacion_repo.png](images/organizacion_repo.png)
+* **Carpetas**
+* * **docs/ :** Carpeta de documentos como las diapositivas de la presentación del softwarw
+  * **images/ :** Carpeta con imágenes para incrustar en archivos markdown.
+  * **DBMAN/ :** Carpeta con los archivos del software gestor de base de dato. Se requiere de *CMakeLists.txt* para 
+  la construcción del sofware.
 
-* <strong>DBSM: </strong> Carpeta con los archivos header y main del Gestor de Base de Datos.
-* <strong>Images: </strong> Carpeta con las imágenes usadas para la documentación en los README.
+  * ![dbman_dir.png](images/dbman_dir.png)
 
+  
+
+
+* **Archivos:**
+  * **.gitignore:** Archivo con archivos y carpetas que deben ignorarse porque no son necesarios
+  * **CHANGELOG.md**
+  * **LICENSE.txt:** License MTI
+  * **ORGANIZACION_REPOSITORIO.md:** Este archivo.
+  * **README.md:** Archivo con información sobre el proyecto, objetivos, instalación, ejecución y otra información relevante
+  sobre este proyecto.
 ## Participantes
 
 - Anagabriela Pilar Jiménez López - ajimenezl@unsa.edu.pe
