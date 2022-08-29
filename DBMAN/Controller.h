@@ -29,6 +29,15 @@ public:
 
     void agregarRegistro();
 
+    void eliminarRegistro();
+
+    void mostrarRegistros();
+
+    void ActualizarRegistro();
+
+    void clearScreen();
+
+    void printlines(int encabezado);
 };
 
 
